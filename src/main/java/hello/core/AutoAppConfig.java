@@ -15,8 +15,8 @@ import org.springframework.context.annotation.FilterType;
 ) //@Configuration 붙은 설정 정보도 자동으로 등록되기 때문에 제외(AppConfig, TestConfig)
 public class AutoAppConfig {
 
-    @Bean(name = "memoryMemberRepository")
-    MemberRepository memberRepository() {
-        return new MemoryMemberRepository();
-    }
+//    @Bean(name = "memoryMemberRepository")
+//    MemberRepository memberRepository() {
+//        return new MemoryMemberRepository();
+//    }
 }
